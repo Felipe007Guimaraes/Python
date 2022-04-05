@@ -38,4 +38,4 @@ while estado_Civil != 'S' or estado_Civil != 'C' or estado_Civil != 'V' or estad
     print('Estado civil inválido!')
     estado_Civil = input('Informe o estado civíl agora:\nS- Solteiro(a)\nC- Casado(a)\nV- Viúvo(a)\nD- Divorciado(a)\n').upper()
 
-print(f'Nome: {nome}\nIdade: {idade}\nSalário: {salario}\nSexo: {sexo}\nEstado civil: {estado_Civil}')
+print(f'Nome: {nome}\nIdade: {idade}\nSalário: {salario:.2f}\nSexo: {sexo}\nEstado civil: {estado_Civil}')
